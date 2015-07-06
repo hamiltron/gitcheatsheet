@@ -24,3 +24,7 @@ My cheat sheet for handy github operations
 No worries. If you haven't staged anything, just checkout to a new or existing branch. 
 The modified files will move with you, leaving the other branch clean (usually). If you
 have staged modifications, use `git reset` to un-stage everything and then checkout a new branch. 
+
+## Handy Config Options
+* `git config --global push.default current` 
+* `git config --global diff.algorithm patience` 
