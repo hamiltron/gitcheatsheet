@@ -1,4 +1,4 @@
-# gitcheatsheet
+# Git Cheat Sheet
 My cheat sheet for handy github operations
 
 ## The usual commit routine
@@ -15,11 +15,11 @@ My cheat sheet for handy github operations
 * `git merge [branch name]` - Merge the named branch with the currently checked-out branch, automatically committing the results. 
 * `git branch -d [branch name]` - Delete a local branch. 
 * `git push origin --delete [branch name]` - Delete a branch off the remote to reduce repo clutter. 
-* `git pull` - (Really a combination of `git fetch` and `git merge`.) Pull and merge recent changes (that other people pushed to the remote) into your local copy. Be ready for conflict resolution. 
+* `git pull` - (Really a combination of `git fetch` and `git merge`) Pull and merge recent changes (that other people pushed to the remote) into your local copy. Be ready for conflict resolution. 
 * `git log -[N]` - View the last *N* commit messages and their commit hashes. 
-* `git checkout [first few 6-10 characters of commit hash]` - Go back in time by checking out a particular commit. This also works with tag names (among others). 
-* `git reset` - Un-stage everything (after `git add`). Modified files will still be there. 
-* `git reset --hard` - Wiped all (tracked) modifications to the currnt local branch. This makes things go POOF - be warned!
+* `git checkout [first 6-10 characters of commit hash]` - Go back in time by checking out a particular commit. This also works with tag names (among other identifiers). 
+* `git reset` - Un-stage everything (due to `git add`). Modified files will still be there. 
+* `git reset --hard` - Wiped all (tracked) modifications to the current local branch. This makes things go POOF - be warned!
 
 ## "Oops, I modified a file on the wrong branch."
 No worries. If you haven't staged anything, just checkout to a new or existing branch. 
