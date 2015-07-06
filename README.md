@@ -12,6 +12,7 @@ My cheat sheet for handy github operations
 * `git branch` - Dispay all the local branches with the currently checked-out branch highlighted. 
 * `git checkout -b [branch name]` - Create a new branch with the given name and switch to it. 
 * `git checkout [branch name]` - Switch to an existing branch.
+* `git merge [branch name]` - Merge the named branch with the currently checked-out branch, automatically committing the results. 
 * `git branch -d [branch name]` - Delete a local branch. 
 * `git push origin --delete [branch name]` - Delete a branch off the remote to reduce repo clutter. 
 * `git pull` - (Really a combination of `git fetch` and `git merge`.) Pull and merge recent changes (that other people pushed to the remote) into your local copy. Be ready for conflict resolution. 
