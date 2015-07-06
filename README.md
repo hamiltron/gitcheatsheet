@@ -6,7 +6,7 @@ My cheat sheet for handy github operations
 2. `git add -A` - Stage all updates to the repo. 
 3. `git status` - Double-check which files are being updated/added/deleted. 
 4. `git commit` 
-5. `git push` - Send it into the ether for safe keeping. 
+5. `git push` - Send it into the aether for safe keeping. 
 
 ## Other basics
 * `git branch` - Dispay all the local branches with the currently checked-out branch highlighted. 
