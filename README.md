@@ -30,3 +30,4 @@ have staged modifications, use `git reset` to un-stage everything and then check
 ## Handy Config Options
 * `git config --global push.default current` 
 * `git config --global diff.algorithm patience` 
+* `git config --global core.mergeoptions --no-edit`
