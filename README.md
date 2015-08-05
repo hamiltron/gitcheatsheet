@@ -21,7 +21,7 @@ My cheat sheet for handy github operations
 * `git checkout [first 6-10 characters of commit hash]` - Go back in time by checking out a particular commit. This also works with tag names (among other identifiers). 
 * `git reset` - Un-stage everything (due to `git add`). Modified files will still be there. 
 * `git reset --hard` - Wiped all (tracked) modifications to the current local branch. **WARNING:** This makes things go POOF!
-* `git clean fdx` - Delete all non-repository files (as if you'd just cloned it). **WARNING:** This makes things go POOF!
+* `git clean -fdx` - Delete all non-repository files (as if you'd just cloned it). **WARNING:** This makes things go POOF!
 
 ## "Oops, I modified a file on the wrong branch."
 No worries. If you haven't staged anything, just checkout to a new or existing branch. 
