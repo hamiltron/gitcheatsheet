@@ -32,3 +32,4 @@ have staged modifications, use `git reset` to un-stage everything and then check
 * `git config --global push.default current` 
 * `git config --global diff.algorithm patience` 
 * `git config --global core.mergeoptions --no-edit`
+* `git config --global merge.ff false`
