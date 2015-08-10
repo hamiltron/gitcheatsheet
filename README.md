@@ -25,6 +25,7 @@ My cheat sheet for handy github operations
 * `git clean -fdx` - Delete all non-repository files (as if you'd just cloned it). **POOF WARNING!** 
 
 *POOF WARNING*: commands that make files go 'POOF' - as in you can't get them back
+
 *hash prefix*: first six to ten characters of commit hash
 
 ## "Oops, I modified a file on the wrong branch."
