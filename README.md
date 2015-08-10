@@ -18,10 +18,14 @@ My cheat sheet for handy github operations
 * `git push origin --delete [branch name]` - Delete a branch off the remote to reduce repo clutter. 
 * `git pull` - (Really a combination of `git fetch` and `git merge`) Pull and merge recent changes (that other people pushed to the remote) into your local copy. Be ready for conflict resolution. 
 * `git log -[N]` - View the last *N* commit messages and their commit hashes. 
-* `git checkout [first 6-10 characters of commit hash]` - Go back in time by checking out a particular commit. This also works with tag names (among other identifiers). 
+* `git checkout [hash prefix]` - Go back in time by checking out a particular commit. This also works with tag names (among other identifiers). 
 * `git reset` - Un-stage everything (due to `git add`). Modified files will still be there. 
-* `git reset --hard` - Wiped all (tracked) modifications to the current local branch. **WARNING:** This makes things go POOF!
-* `git clean -fdx` - Delete all non-repository files (as if you'd just cloned it). **WARNING:** This makes things go POOF!
+* `git reset --hard` - Wiped all (tracked) modifications to the current local branch. **POOF WARNING!** 
+* `git reset --hard [hash prefix]` - Roll back the repo to a particular commit. **POOF WARNING!** 
+* `git clean -fdx` - Delete all non-repository files (as if you'd just cloned it). **POOF WARNING!** 
+
+*POOF WARNING*: commands that make files go 'POOF' - as in you can't get them back
+*hash prefix*: first six to ten characters of commit hash
 
 ## "Oops, I modified a file on the wrong branch."
 No worries. If you haven't staged anything, just checkout to a new or existing branch. 
