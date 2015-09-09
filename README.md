@@ -19,6 +19,7 @@ My cheat sheet for handy github operations
 * `git pull` - (Really a combination of `git fetch` and `git merge`) Pull and merge recent changes (that other people pushed to the remote) into your local copy. Be ready for conflict resolution. 
 * `git log -[N]` - View the last *N* commit messages and their commit hashes. 
 * `git checkout [hash prefix]` - Go back in time by checking out a particular commit. This also works with tag names (among other identifiers). 
+* `git checkout [hash prefix] [file path]` - Grab a file from a particular commit to get a past version of it.
 * `git reset` - Un-stage everything (due to `git add`). Modified files will still be there. 
 * `git reset --hard` - Wiped all (tracked) modifications to the current local branch. **POOF WARNING!** 
 * `git reset --hard [hash prefix]` - Roll back the repo to a particular commit. **POOF WARNING!** 
