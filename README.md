@@ -2,6 +2,7 @@
 My cheat sheet for handy github operations
 
 ## The usual commit routine
+
 1. `git status` - Make sure only the intended files were modified or added. Edit the *.gitignore* file if files new files are showing up that should only be local. 
 2. `git add -A` - Stage all updates to the repo. 
 3. `git status` - Double-check which files are being updated/added/deleted. 
@@ -9,6 +10,7 @@ My cheat sheet for handy github operations
 5. `git push` - Send it into the aether for safe keeping. 
 
 ## Other basics
+
 * `git branch` - Dispay all the local branches with the currently checked-out branch highlighted. 
 * `git checkout -b [branch name]` - Create a new branch with the given name and switch to it. 
 * `git checkout [branch name]` - Switch to an existing branch.
@@ -24,6 +26,11 @@ My cheat sheet for handy github operations
 * `git reset --hard` - Wiped all (tracked) modifications to the current local branch. **POOF WARNING!** 
 * `git reset --hard [hash prefix]` - Roll back the repo to a particular commit. **POOF WARNING!** 
 * `git clean -fdx` - Delete all non-repository files (as if you'd just cloned it). **POOF WARNING!** 
+
+## Weird but Useful
+* `git show [has prefix]:[old file path] > [new file path]` - Retrieve file from another branch or commit with a new filename. 
+
+## Definitions
 
 *POOF WARNING*: commands that make files go 'POOF' - as in you can't get them back
 
