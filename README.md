@@ -29,7 +29,7 @@ My cheat sheet for handy github operations
 * `git stash save -u` - Stash changes, including untracked files.
 
 ## Weird but Useful
-* `git show [has prefix]:[old file path] > [new file path]` - Retrieve file from another branch or commit with a new filename. 
+* `git show [hash prefix]:[old file path] > [new file path]` - Retrieve file from another branch or commit with a new filename. 
 
 ## Definitions
 
