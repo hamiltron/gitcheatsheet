@@ -30,6 +30,7 @@ My cheat sheet for handy github operations
 
 ## Weird but Useful
 * `git show [hash prefix]:[old file path] > [new file path]` - Retrieve file from another branch or commit with a new filename. 
+* `git checkout [branch name] -- .` - Get the file/directories state of another branch without changing the current branch or HEAD reference (will wipe out uncommitted changes). 
 
 ## Definitions
 
