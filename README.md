@@ -27,6 +27,8 @@ My cheat sheet for handy github operations
 * `git reset --hard [hash prefix]` - Roll back the repo to a particular commit. **POOF WARNING!** 
 * `git clean -fdx` - Delete all non-repository files (as if you'd just cloned it). **POOF WARNING!** 
 * `git stash save -u` - Stash changes, including untracked files.
+* `git log --first-parent` - Show the commit log, excluding commits from other branches that came in through merges
+* `git reset --soft [hash prefix]` - Reset the index to a particular commit (useful for squashing commits) 
 
 ## Weird but Useful
 * `git show [hash prefix]:[old file path] > [new file path]` - Retrieve file from another branch or commit with a new filename. 
